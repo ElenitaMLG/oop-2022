@@ -15,7 +15,7 @@ int convert(const char* s) {
 bool solve(int& rezultat) {
 	FILE* fisier = fopen("Text.txt", "r");
 	if (fisier == NULL) {
-		printf("Nu exista fisierul");
+		printf("Nu exista fisierul Text.txt");
 		return false;
 	}
 	char sir[100];
