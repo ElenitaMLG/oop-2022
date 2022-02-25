@@ -33,6 +33,6 @@ int main() {
 	if (solve(rezultat) == true)
 		printf("%d", rezultat);
 	else
-		printf("Eroare");
+		printf("Error 404");
 	return 0;
 }
